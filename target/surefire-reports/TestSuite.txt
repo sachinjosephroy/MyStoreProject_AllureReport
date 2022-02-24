@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.966 s <<< FAILURE! - in TestSuite
-clickSignInBtn(com.mystore.testcases.IndexPageTest)  Time elapsed: 2.5 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.588 s <<< FAILURE! - in TestSuite
+clickSignInBtn(com.mystore.testcases.IndexPageTest)  Time elapsed: 2.628 s  <<< FAILURE!
 java.lang.AssertionError: expected [Login - My Stores] but found [Login - My Store]
 	at com.mystore.testcases.IndexPageTest.clickSignInBtn(IndexPageTest.java:65)
 
