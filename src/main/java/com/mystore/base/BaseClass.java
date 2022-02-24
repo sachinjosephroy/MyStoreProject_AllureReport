@@ -62,7 +62,7 @@ public class BaseClass {
 			FirefoxOptions options = new FirefoxOptions();
 			options.addArguments("headless");
 			options.addArguments("window-size=1920,1080");
-			driver.set(new FirefoxDriver());
+			driver.set(new FirefoxDriver(options));
 		} else if (browserName.equalsIgnoreCase("IE")) {
 			WebDriverManager.iedriver().setup();
 			driver.set(new InternetExplorerDriver());
