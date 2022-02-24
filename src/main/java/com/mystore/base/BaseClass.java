@@ -27,7 +27,7 @@ public class BaseClass {
 	
 	@BeforeSuite
 	public void loadConfig() throws IOException {
-		ExtentManager.setExtent();
+		//ExtentManager.setExtent();
 		DOMConfigurator.configure("log4j.xml");
 		
 		try {
@@ -86,6 +86,6 @@ public class BaseClass {
 	
 	@AfterSuite
 	public void afterSuite() {
-		ExtentManager.endReport();
+		//ExtentManager.endReport();
 	}
 }
